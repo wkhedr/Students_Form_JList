@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="edu.fci.cs102.MyFrame">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-862950"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="260d4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-10161627"/>
+          <preferredSize width="343" height="100"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7b2a5" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font swing-font="InternalFrame.titleFont"/>
+              <text value="Enter Distance in Km:"/>
+            </properties>
+          </component>
+          <component id="bb62b" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-13311233"/>
+              <columns value="20"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="ada54" class="javax.swing.JButton" binding="convertButton" default-binding="true">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-906726"/>
+          <text value="Convert"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
